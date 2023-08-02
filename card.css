@@ -1,0 +1,79 @@
+.citrusX__card_container {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.citrusX__sectionTitle {
+    margin: 0;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px !important;
+}
+
+.citrusX__card_container::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.citrusX__card {
+    width: 1124px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+
+.citrusX__card_container {
+    overflow: auto;
+}
+
+.citrusX__card__row {
+    width: 1124px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.citrusX__card__item {
+    width: 342px;
+    background-color: #f1efd9;
+}
+
+.citrusX__card__item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.citrusX__card__item_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 168px;
+}
+
+.citrusX__card__item_details h2 {
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-size: 20px;
+    line-height: initial;
+    font-weight: 900;
+    color: #000000;
+}
+
+.citrusX__card__item_details p {
+    width: 282px;
+    font-family: "PetcoCircularTT-Regular", arial !important;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #000000;
+}
